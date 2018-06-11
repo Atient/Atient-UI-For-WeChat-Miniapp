@@ -102,6 +102,9 @@ ItemTap: function(e){
 ...
 ```
 
+The example gif is here
+![Atient 1.0](https://www.passstr8.top/TraImages/github/example.gif)
+
 
  ---
 ##### Developer
