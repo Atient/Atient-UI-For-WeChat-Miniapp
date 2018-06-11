@@ -1,0 +1,16 @@
+/* components/float-button-list/float-button-list.wxss */
+.button-top{
+  z-index: 99;
+  margin: inherit;
+  border: inherit;
+  position: inherit; 
+  box-shadow: 2px 2px 25px 0.5px #bbbbbb;
+}
+
+.button-bottom{
+  z-index: 98;
+  margin: inherit;
+  border: inherit;
+  position: inherit;
+  box-shadow: 2px 2px 25px 0.5px #bbbbbb;
+}

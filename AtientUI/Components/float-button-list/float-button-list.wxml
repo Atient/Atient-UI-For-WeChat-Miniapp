@@ -1,0 +1,24 @@
+<!--components/float-button-list/float-button-list.wxml-->
+<view class='button-top' style='height:{{length}}px;width:{{length}}px;background:{{background}};border-radius:{{length/2}}px;' bindtap='TopTap' animation='{{topAmt}}'>
+  <image class='icon' src='{{top}}' style='height:{{length*0.6}}px;width:{{length*0.6}}px;margin:{{length*0.2}}px;'></image>
+</view>
+
+<view id='4' wx:if='{{list[4].icon.length>0}}' bindtap='Tap' class='button-bottom' style='height:{{length}}px;width:{{length}}px;background:{{background}};border-radius:{{length/2}}px;' animation='{{buttonAmts[4]}}'>
+  <image class='icon' src='{{list[4].icon}}' style='height:{{length*0.6}}px;width:{{length*0.6}}px;margin:{{length*0.2}}px;'></image>
+</view>
+
+<view id='3' wx:if='{{list[3].icon.length>0}}' bindtap='Tap' class='button-bottom' style='height:{{length}}px;width:{{length}}px;background:{{background}};border-radius:{{length/2}}px;' animation='{{buttonAmts[3]}}'>
+  <image class='icon' src='{{list[3].icon}}' style='height:{{length*0.6}}px;width:{{length*0.6}}px;margin:{{length*0.2}}px;'></image>
+</view>
+
+<view id='2' wx:if='{{list[2].icon.length>0}}' bindtap='Tap' class='button-bottom' style='height:{{length}}px;width:{{length}}px;background:{{background}};border-radius:{{length/2}}px;' animation='{{buttonAmts[2]}}'>
+  <image class='icon' src='{{list[2].icon}}' style='height:{{length*0.6}}px;width:{{length*0.6}}px;margin:{{length*0.2}}px;'></image>
+</view>
+
+<view id='1' wx:if='{{list[1].icon.length>0}}' bindtap='Tap' class='button-bottom' style='height:{{length}}px;width:{{length}}px;background:{{background}};border-radius:{{length/2}}px;' animation='{{buttonAmts[1]}}'>
+  <image class='icon' src='{{list[1].icon}}' style='height:{{length*0.6}}px;width:{{length*0.6}}px;margin:{{length*0.2}}px;'></image>
+</view>
+
+<view id='0' wx:if='{{list[0].icon.length>0}}' bindtap='Tap' class='button-bottom' style='height:{{length}}px;width:{{length}}px;background:{{background}};border-radius:{{length/2}}px;' animation='{{buttonAmts[0]}}'>
+  <image class='icon' src='{{list[0].icon}}' style='height:{{length*0.6}}px;width:{{length*0.6}}px;margin:{{length*0.2}}px;'></image>
+</view>

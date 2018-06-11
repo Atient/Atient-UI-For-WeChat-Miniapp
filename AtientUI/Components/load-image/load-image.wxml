@@ -1,0 +1,5 @@
+<!--components/load-image/load-image.wxml-->
+<view id='{{id}}' class='load-image'>
+  <image style='background-size:auto;z-index:1;' src='{{loadsrc}}' hidden='{{isLoaded}}' class='image'></image>
+  <image style='z-index:2;' mode='{{mode}}' src='{{src}}' hidden='{{!isLoaded}}' bindload='Loaded' class='image'></image>
+</view>

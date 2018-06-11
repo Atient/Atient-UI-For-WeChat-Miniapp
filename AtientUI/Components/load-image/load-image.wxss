@@ -1,0 +1,8 @@
+/* components/load-image/load-image.wxss */
+.load-image{
+  all: inherit;
+}
+.image{
+  height: inherit;
+  width: inherit; 
+}
