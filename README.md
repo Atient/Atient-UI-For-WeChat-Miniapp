@@ -15,7 +15,7 @@ ___
 You can add `class` into all components' tag to change its looks.
 
 ##### 1. &emsp; load-image
-This is a image component that could show a local `.gif` befoe the web image loaded.
+This is a image component that could show a local `.gif` before the web image loaded.
 
 Firstly add code into your `.json` file to use the component,and then you can write in your `.wxml` file. If the component's name you defined is `load-image`, write like this:
 ```html
