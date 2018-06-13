@@ -60,8 +60,8 @@ The properties except those `view` take itself are as follow:
 |direction|string|false|"up"|This is the translate direction of buttons. The valid values are "up","down","left" and "right".|
 |duration|number|false|500|The time set for animation.|
 |single-tap|string|false|"true"|Set "true" to make buttons move back after single tap and "false" for no.|
-|top|string|true| |This is the `url` of the button always show.|
-|list|array|true| |Set for the list buttons and the item of it is listed behind.|
+|top|string|true| |This is the icon's `url` of the button always show.|
+|list|array|true| |Set icons' `url` for the list buttons and the item of it is listed behind.|
 
 The item of `list` contains only one property now:
 
