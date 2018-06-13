@@ -62,6 +62,7 @@ The properties except those `view` take itself are as follow:
 |single-tap|string|false|"true"|Set "true" to make buttons move back after single tap and "false" for no.|
 |top|string|true| |This is the `url` of the button always show.|
 |list|array|true| |Set for the list buttons and the item of it is listed behind.|
+
 The item of `list` contains only one property now:
 
 |Name|Type|Explanation|
