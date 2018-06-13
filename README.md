@@ -41,12 +41,13 @@ Firstly add code into your `.json` file to use the component,and then you can wr
 ```html
 <float-button-list class="float-button-list"/>
 ```
-If you want to make the button always on the top, add things into the relative `class` in the `.wxss` file of page like this:
+If you want to make the button always on the top, remenber set `z-index` a big number. add things into the relative `class` in the `.wxss` file of page like this:
 ```
 .float-button-list{
   position: fixed;
   bottom: 100px;
   left: 50px;
+  z-index: 99;
 }
 ```
 Notice! The `bottom` here may be the distance from the top of this component to the bottom of window. Please change the `bottom` and `left` carefully to move it to the best place.
