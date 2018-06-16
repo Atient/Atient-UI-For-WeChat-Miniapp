@@ -106,7 +106,7 @@ ItemTap: function(e){
 ...
 ```
 
-![Atient 1.0](https://www.passstr8.top/TraImages/github/example2.gif)
+![Atient 1.0](https://www.passstr8.top/TraImages/github/example3.gif)
 
 
  ---
