@@ -1,0 +1,13 @@
+/* components/gradient-color-view/gradient-color-view.wxss */
+.gcv{
+  margin: inherit;
+  border: inherit;
+  display: inherit;
+  flex: inherit;
+  z-index: inherit;
+}
+.inter{
+  z-index: -1;
+  position: absolute;
+  top: 0px;
+}

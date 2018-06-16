@@ -1,0 +1,4 @@
+<!--components/gradient-color-view/gradient-color-view.wxml-->
+<view class='gcv'>
+  <view class='inter' style='background:{{startColor}};height:{{height}}%;width:{{width}}%;'></view>
+</view>
