@@ -108,6 +108,44 @@ ItemTap: function(e){
 
 ![Atient 1.0](https://www.passstr8.top/TraImages/github/example3.gif)
 
+---
+
+##### &emsp; 3. gradient-background
+This may be a failure of my work. I don't know why it couldn't inherit `class` from its parent. So the only thing I can do is insert a child into itself to make a change and it goes hard to use for some the fresh.
+
+At beginning in my design it could be use as background freely in any occasion. But now <font color=orange> I only recommand to use it as a main background when you're introduce your Miniapp like some did on the Android. </font> Certainly, if you're familiar with Miniapp development, you can try to adjust its `class` `inter` in its `.wxss` file to your application.
+
+In your page, use it like this if you've named it as `gradient-background`:
+
+```
+<gradient-background/>
+```   
+
+The properties are as follow:
+
+|Name|Type|Required|Default|Explanation|
+|----|----|--------|-------|-----------|
+|start-color|string|false|#000000|To set the color before beginning. And it will be set as the same as the `end-color` after changing finish.|
+|end-color|string|false|#ffffff|To set the final color.|
+|auto-start|boolean|false|true|The color start chaging since this component loaded.|
+|start|boolean|false|false|To let the change start set this `true`.|
+|duration|number|false|500|The animation's duration.|
+|height|number|false|100|The percentage of its height.|
+|width|number|false|100|The percentage of its width.|
+
+This component takes two events besides events the `view` taking:
+
+|Name|Type|Explanation|
+|----|----|-----------|
+|start|event|It will cause a trigger when the animation start.|
+|end|event|It will cause a trigger when the animation end.|
+
+Example:
+```html
+  <gradient-background start-color='#6699ff' end-color="#e08e84" duration='100' auto-start='false' start='{{start}}' height='100' width='100' bindstart='Start' bindend='End'/>
+```
+
+![Atient 1.1](https://www.passstr8.top/TraImages/github/example2.gif)
 
  ---
 ##### Developer
