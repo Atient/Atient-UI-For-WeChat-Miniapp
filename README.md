@@ -145,7 +145,7 @@ Example:
   <gradient-background start-color='#6699ff' end-color="#e08e84" duration='100' auto-start='false' start='{{start}}' height='100' width='100' bindstart='Start' bindend='End'/>
 ```
 
-![Atient 1.0](https://www.passstr8.top/TraImages/github/example2.gif)
+![Atient 1.1](https://www.passstr8.top/TraImages/github/example4.gif)
 
  ---
 ##### Developer
