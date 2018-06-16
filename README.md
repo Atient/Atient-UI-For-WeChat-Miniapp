@@ -11,9 +11,6 @@ ___
 Then you can use the component in the page.
 ___
 #### Components
-###### Before Using
-You can add `class` into all components' tag to change its looks.
-
 ##### 1. &emsp; load-image
 This is a image component that could show a local `.gif` before the web image loaded.
 
@@ -29,10 +26,13 @@ Firstly add code into your `.json` file to use the component,and then you can wr
  |loadsrc|string|true|none|This is the `url` of the loading image, support `.gif`|
  |mode|string|false|aspectFit|This is the scale mode of your main image, you can set it like official usage of `image`.You can [jump here](https://developers.weixin.qq.com/miniprogram/dev/component/image.html)|
 
+You can add `class` into this component's tag to change its looks.
+
 Example:
 ```
   <load-image class='load-image' loadsrc='load.gif' src='main.jpg' mode='scaleToFill'/>
 ```
+![Atient 1.0](https://www.passstr8.top/TraImages/github/example1.gif)
 ---
  ##### 2. &emsp; float-button-list
 This is a button include less than 5 other button, which will show those with animation when you tap it.  
@@ -76,6 +76,8 @@ This component takes an event:
 |----|----|-----------|
 |itemtap|event|It will return the button's Id in `e.detail.current` after you tap a buuton in this component.You can use it for different options.|
 
+You can add `class` into this component's tag to change its looks.
+
 Example:
 
 In `.wxml`
@@ -104,8 +106,7 @@ ItemTap: function(e){
 ...
 ```
 
-The example gif is here
-![Atient 1.0](https://www.passstr8.top/TraImages/github/example.gif)
+![Atient 1.0](https://www.passstr8.top/TraImages/github/example2.gif)
 
 
  ---
