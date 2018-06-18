@@ -127,7 +127,7 @@ The properties are as follow:
 |----|----|--------|-------|-----------|
 |start-color|string|false|#000000|To set the color before beginning. And it will be set as the same as the `end-color` after changing finish.|
 |end-color|string|false|#ffffff|To set the final color.|
-|auto-start|boolean|false|true|The color start chaging since this component loaded.|
+|auto-start|boolean|false|true|The color start changing since this component loaded.|
 |start|boolean|false|false|To let the change start set this `true`.|
 |duration|number|false|500|The animation's duration.|
 |height|number|false|100|The percentage of its height.|
