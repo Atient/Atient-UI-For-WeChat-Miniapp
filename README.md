@@ -62,7 +62,7 @@ The properties except those `view` take itself are as follow:
 |duration|number|false|500|The time set for animation.|
 |single-tap|oolean|false|true|Set "true" to make buttons move back after single tap and "false" for no.|
 |top|string|true| |This is the icon's `url` of the button always show.|
-|list|array|true| |Set icons' `url` for the list buttons and the item of it is listed behind.|
+|list|array|true| |Set icons' `url` for the list buttons and the item of it is listed behind. The max length set is 5.|
 
 The item of `list` contains only one property now:
 
